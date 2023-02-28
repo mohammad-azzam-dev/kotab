@@ -1,0 +1,27 @@
+CRITICAL - 2020-06-21 00:05:59 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dawah\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('under_maintenan...')
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('under_maintenan...', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\GeneralController.php(14): view('under_maintenan...')
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\GeneralController->under_maintenance()
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GeneralController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-21 00:07:19 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dawah\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('under_maintenan...')
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('under_maintenan...', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\GeneralController.php(11): view('under_maintenan...')
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\GeneralController->under_maintenance()
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GeneralController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-21 00:07:57 --> Invalid file: {0}
+#0 C:\xampp\htdocs\dawah\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('under_maintenan...')
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('under_maintenan...', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\GeneralController.php(9): view('under_maintenan...')
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\GeneralController->under_maintenance()
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GeneralController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
