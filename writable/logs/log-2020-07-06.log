@@ -1,8 +1,0 @@
-CRITICAL - 2020-07-06 00:02:26 --> syntax error, unexpected ')'
-#0 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('auth/index', Array, true)
-#1 C:\xampp\htdocs\dawah\app\Controllers\AuthController.php(71): view('auth/index', Array)
-#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\AuthController->login()
-#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
-#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#5 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
-#6 {main}

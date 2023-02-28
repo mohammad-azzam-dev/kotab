@@ -1,6 +1,0 @@
-CRITICAL - 2020-09-04 10:44:37 --> Call to a member function update() on null
-#0 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ClassesRequestsController->accept_remove_student_request('13')
-#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ClassesRequestsController))
-#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#3 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
-#4 {main}
