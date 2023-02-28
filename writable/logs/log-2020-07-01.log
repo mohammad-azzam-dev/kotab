@@ -1,0 +1,196 @@
+CRITICAL - 2020-07-01 00:32:35 --> syntax error, unexpected '?'
+#0 C:\xampp\htdocs\dawah\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(171): view('backend/index', Array)
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->new('16')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-01 00:37:30 --> Column 'class_time' cannot be null
+#0 C:\xampp\htdocs\dawah\system\Database\MySQLi\Connection.php(330): mysqli->query('INSERT INTO `ac...')
+#1 C:\xampp\htdocs\dawah\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 C:\xampp\htdocs\dawah\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 C:\xampp\htdocs\dawah\system\Database\BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...', Array, false)
+#4 C:\xampp\htdocs\dawah\system\Model.php(722): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\dawah\system\Model.php(550): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(42): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->create('16')
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#9 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-07-01 00:45:34 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\dawah\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('Academic/Report...')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('Academic/Report...')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-01 00:46:38 --> syntax error, unexpected '*'
+#0 C:\xampp\htdocs\dawah\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('26')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-01 00:46:46 --> Undefined index: notes
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\class_reports\show.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(50): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('26')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-01 00:47:22 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\dawah\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('26')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-01 00:47:24 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\dawah\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('26')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-01 00:52:08 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\dawah\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('Academic/Report...')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('Academic/Report...')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-01 00:56:43 --> Undefined index: notes
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\class_reports\show.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(50): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('28')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-01 00:57:09 --> Undefined index: notes
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\class_reports\show.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(50): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('28')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-01 00:57:21 --> Undefined index: notes
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\class_reports\show.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(50): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('28')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-01 00:57:27 --> Undefined index: notes
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\class_reports\show.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(50): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('28')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-01 01:00:00 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\dawah\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('Academic/Report...')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('Academic/Report...')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-01 01:00:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\class_reports\show.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(50): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('28')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-01 01:00:29 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\dawah\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('28')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-01 01:01:00 --> syntax error, unexpected '[', expecting ']'
+#0 C:\xampp\htdocs\dawah\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('28')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-01 01:01:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\class_reports\show.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(50): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('28')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-01 01:01:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\class_reports\show.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(50): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('28')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-01 01:01:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\class_reports\show.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(50): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('28')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-01 01:02:53 --> syntax error, unexpected ')', expecting ']'
+#0 C:\xampp\htdocs\dawah\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(279): view('backend/index', Array)
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->show('28')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,122 @@
+CRITICAL - 2020-09-08 11:14:21 --> syntax error, unexpected '==' (T_IS_EQUAL), expecting ')'
+#0 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-08 11:14:54 --> syntax error, unexpected 'return' (T_RETURN), expecting ';'
+#0 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-08 11:17:42 --> Undefined index: user_id
+#0 C:\xampp\htdocs\dawah\app\Controllers\API\Academic\API_ClassesController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\API\Academic\API_ClassesController->list()
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Academic\API_ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 15:36:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Helpers\academic_helper.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\classes\scripts.php(175): is_instructor_of('')
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(112): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(64): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesList('all')
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-08 15:37:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Helpers\academic_helper.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\classes\scripts.php(175): is_instructor_of('')
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(112): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(64): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesList('all')
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-08 15:37:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Helpers\academic_helper.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\classes\scripts.php(175): is_instructor_of('')
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(112): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(64): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesList('all')
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-08 15:40:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Helpers\academic_helper.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\classes\scripts.php(175): is_instructor_of('')
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(112): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(64): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesList('all')
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-08 15:42:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Helpers\academic_helper.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\classes\scripts.php(175): is_instructor_of('')
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(112): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(64): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesList('all')
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-08 15:45:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Helpers\academic_helper.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 153, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\classes\scripts.php(175): is_instructor_of('')
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(112): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(64): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesList('all')
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-08 15:59:07 --> syntax error, unexpected ''dddd'' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\dawah\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('Academic/Report...')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('Academic/Report...')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 15:59:23 --> Function name must be a string
+#0 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->create('16')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-08 16:00:00 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-08 23:26:16 --> Undefined index: course_id
+#0 C:\xampp\htdocs\dawah\app\Controllers\Academic\ReportsController.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 171, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Academic\ReportsController->new()
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Academic\ReportsController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

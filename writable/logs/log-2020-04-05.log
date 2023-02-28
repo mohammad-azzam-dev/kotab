@@ -1,0 +1,252 @@
+CRITICAL - 2020-04-05 20:10:50 --> Too few arguments to function App\Controllers\ClassesController::showAttendanceReport(), 0 passed in C:\xampp\htdocs\dawah\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAttendanceReport()
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-05 20:11:28 --> Too few arguments to function App\Controllers\ClassesController::showAttendanceReport(), 0 passed in C:\xampp\htdocs\dawah\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAttendanceReport()
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-05 20:11:36 --> Array to string conversion
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 231, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAttendanceReport('1')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-05 20:12:06 --> Undefined variable: students
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 232, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAttendanceReport('1')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-05 20:12:51 --> Undefined index: user_id
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(249): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 249, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAttendanceReport('1')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-05 20:13:40 --> Trying to get property 'user_id' of non-object
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\classes\showAttendanceReport.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(42): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(257): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAttendanceReport('1')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-05 20:14:01 --> Undefined variable: data
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\classes\showAttendanceReport.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(42): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(257): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAttendanceReport('1')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-05 20:14:28 --> Undefined variable: data
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\classes\showAttendanceReport.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(42): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(257): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAttendanceReport('1')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-05 20:21:41 --> Call to a member function errors() on null
+#0 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAttendanceReport('1')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-05 20:22:15 --> Object of class App\Models\AttendanceModel could not be converted to string
+#0 C:\xampp\htdocs\dawah\app\Views\backend\index.php(42): include()
+#1 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#3 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(259): view('backend/index', Array)
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAttendanceReport('1')
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-05 20:24:48 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\dawah\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('classesControll...')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('classesControll...')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-05 20:25:30 --> Array to string conversion
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 246, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAttendanceReport('1')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-05 20:37:27 --> include(inc/nav_inc): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\frontend\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(inc/nav...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\frontend\index.php(18): include()
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('frontend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Home.php(7): view('frontend/index')
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-05 20:58:27 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('frontend/index', Array, true)
+#1 C:\xampp\htdocs\dawah\app\Controllers\Home.php(7): view('frontend/index')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-05 20:58:30 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('frontend/index', Array, true)
+#1 C:\xampp\htdocs\dawah\app\Controllers\Home.php(7): view('frontend/index')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-05 21:49:30 --> syntax error, unexpected 'elseif' (T_ELSEIF), expecting end of file
+#0 C:\xampp\htdocs\dawah\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('frontend/index', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\Home.php(7): view('frontend/index')
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-05 21:49:47 --> Undefined index: logged_in
+#0 C:\xampp\htdocs\dawah\app\Views\frontend\inc\nav_inc.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\frontend\index.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('frontend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Home.php(7): view('frontend/index')
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-05 21:56:10 --> Undefined index: logged_in
+#0 C:\xampp\htdocs\dawah\app\Views\frontend\inc\nav_inc.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\frontend\index.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('frontend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Home.php(7): view('frontend/index')
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-05 21:59:49 --> Undefined index: logged_in
+#0 C:\xampp\htdocs\dawah\app\Views\frontend\inc\nav_inc.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\frontend\index.php(18): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('frontend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\Home.php(7): view('frontend/index')
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-05 23:00:32 --> Call to undefined function get_instance()
+#0 C:\xampp\htdocs\dawah\app\Views\backend\index.php(8): isRole('1', 'admin')
+#1 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#3 C:\xampp\htdocs\dawah\app\Controllers\DashboardController.php(11): view('backend/index', Array)
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-05 23:09:05 --> Undefined index: user_id
+#0 C:\xampp\htdocs\dawah\app\Views\backend\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#3 C:\xampp\htdocs\dawah\app\Controllers\DashboardController.php(11): view('backend/index', Array)
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-05 23:22:04 --> Call to undefined function App\Controllers\isRole()
+#0 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAll()
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-05 23:24:58 --> syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file
+#0 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\RES...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\RES...')
+#3 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(13): spl_autoload_call('CodeIgniter\\RES...')
+#4 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 [internal function]: spl_autoload_call('App\\Controllers...')
+#9 C:\xampp\htdocs\dawah\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#10 C:\xampp\htdocs\dawah\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#11 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-04-05 23:25:23 --> Undefined variable: _SESSION
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAll()
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-05 23:26:12 --> Undefined property: App\Controllers\ClassesController::$session
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAll()
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-05 23:27:15 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-05 23:31:42 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\dawah\app\Helpers\roles_helper.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(22): isRole('1', 'admin')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showAll()
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-05 23:52:34 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\dawah\app\Controllers\AuthController.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\AuthController->register()
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-05 23:54:10 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\dawah\app\Controllers\AuthController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\AuthController->register()
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

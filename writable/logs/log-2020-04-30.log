@@ -1,0 +1,55 @@
+CRITICAL - 2020-04-30 15:03:38 --> Undefined index: role_achievements
+#0 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(370): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 370, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->store_completed_achievements('2')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-30 15:05:18 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(373): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 373, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->store_completed_achievements('2')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-30 15:12:05 --> include(inc/sidebar.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(inc/sid...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(39): include()
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(47): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->show('2')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-30 15:12:16 --> include(inc/sidebar.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(inc/sid...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(39): include()
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(47): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->show('2')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-30 15:12:19 --> include(inc/sidebar.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(inc/sid...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(39): include()
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\DashboardController.php(66): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\DashboardController->index()
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-30 23:46:15 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ')'
+#0 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#1 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(61): view('backend/index', Array)
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesList('all')
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

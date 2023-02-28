@@ -1,0 +1,88 @@
+CRITICAL - 2020-04-20 14:09:07 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\dawah\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('ClassesControll...')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('ClassesControll...')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-20 14:09:47 --> Call to undefined function App\Controllers\is_instructor_of()
+#0 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showReport('13')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-20 14:15:06 --> Call to undefined function App\Controllers\getClass()
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(567): App\Controllers\ClassesController->is_instructor_of('13')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showReport('13')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-20 14:15:18 --> Undefined variable: id
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(617): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 617, Array)
+#1 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(567): App\Controllers\ClassesController->is_instructor_of('13')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showReport('13')
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-20 14:15:29 --> Undefined index: user_id
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(619): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 619, Array)
+#1 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(567): App\Controllers\ClassesController->is_instructor_of('13')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showReport('13')
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-20 14:36:54 --> Undefined variable: completedLessons
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(612): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 612, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showReport('13')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-20 14:38:37 --> Undefined variable: class_data
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(612): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 612, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showReport('13')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-20 16:29:59 --> Call to undefined function App\Controllers\is_instructor_of()
+#0 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesDataTable('all')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-20 16:30:57 --> Call to undefined function App\Controllers\is_instructor_of()
+#0 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesDataTable('all')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-20 16:38:33 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\dawah\app\Views\backend\dashboard\classes\students.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(53): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(419): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showClassStudents('13')
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-20 16:39:14 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\dawah\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(419): view('backend/index', Array)
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showClassStudents('13')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-20 16:43:35 --> Call to undefined method App\Controllers\DashboardController::session()
+#0 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\DashboardController->index()
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

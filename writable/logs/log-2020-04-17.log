@@ -1,0 +1,309 @@
+CRITICAL - 2020-04-17 10:27:06 --> Undefined index: instructor_id
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(311): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 311, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesDataTable('myChildrenClass...')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-17 10:27:18 --> Undefined index: instructor_id
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(311): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 311, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesDataTable('myChildrenClass...')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-17 10:27:34 --> Undefined index: instructor_id
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(311): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 311, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesDataTable('myChildrenClass...')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-17 10:29:03 --> Undefined index: user_id
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(311): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 311, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesDataTable('myChildrenClass...')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-17 10:52:10 --> Call to undefined function App\Controllers\is_instructor_of()
+#0 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->showReport('13')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-17 10:58:23 --> Undefined index: major_id
+#0 C:\xampp\htdocs\dawah\app\Controllers\ClassesController.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\ClassesController->classesDataTable('myChildrenClass...')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClassesController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-17 14:20:47 --> include(inc/footer.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(inc/foo...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\index.php(67): include()
+#2 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#4 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-17 14:21:05 --> include(dashboard/users/scripts.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(dashboa...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 14:21:39 --> include(../dashboard/users/scripts.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../dash...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 14:23:23 --> syntax error, unexpected ''); ?>' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\dawah\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#2 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-17 14:23:42 --> include(../../dashboard/users/scripts.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../d...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 14:24:03 --> include(././dashboard/users/scripts.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(././das...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 14:25:31 --> include(./dashboard/users/scripts.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(./dashb...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 14:26:16 --> include(../welcome_message.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../welc...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 14:26:57 --> include(welcome_message.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(welcome...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 14:27:16 --> include(../../welcome_message.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../w...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 14:27:30 --> include(./welcome_message.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(./welco...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 14:27:37 --> include(/./welcome_message.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/./welc...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 14:27:45 --> include(/../welcome_message.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/../wel...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 14:28:12 --> include(../../../../../welcome_message.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../....', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 14:35:19 --> include(/dashboard/users/scripts.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/dashbo...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\dawah\app\Views\backend\inc\common_scripts.php(12): include()
+#2 C:\xampp\htdocs\dawah\app\Views\backend\index.php(79): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dawah\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dawah\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(24): view('backend/index', Array)
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->index()
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 17:58:57 --> Undefined index: user_id
+#0 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 134, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->getUser('1')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-17 17:59:51 --> Undefined index: user_id
+#0 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 134, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->getUser('1')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-17 18:00:38 --> Undefined index: user_id
+#0 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 134, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->getUser('1')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-17 18:01:34 --> Unknown column 'user_id' in 'where clause'
+#0 C:\xampp\htdocs\dawah\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\dawah\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dawah\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dawah\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dawah\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(129): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->getUser('1')
+#7 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#8 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-17 18:02:30 --> Class 'App\Models\UsersRoleModel' not found
+#0 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->getUser('1')
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-17 18:03:05 --> Undefined variable: roleModel
+#0 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 130, Array)
+#1 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->getUser('1')
+#2 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-17 18:16:15 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dawah\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-17 18:16:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Helpers\roles_helper.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\dawah\app\Helpers\roles_helper.php(36): getRoleIdByName('1')
+#2 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(118): assignRole('1', '1')
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->update('1')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-17 18:28:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Helpers\roles_helper.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\dawah\app\Helpers\roles_helper.php(36): getRoleIdByName('1')
+#2 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(118): assignRole('1', '1')
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->update('1')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-17 18:28:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Helpers\roles_helper.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\dawah\app\Helpers\roles_helper.php(36): getRoleIdByName('1')
+#2 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(118): assignRole('1', '1')
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->update('1')
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-17 18:31:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\dawah\app\Helpers\roles_helper.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\dawah\app\Helpers\roles_helper.php(36): getRoleIdByName('2')
+#2 C:\xampp\htdocs\dawah\app\Controllers\UsersController.php(64): assignRole(91, '2')
+#3 C:\xampp\htdocs\dawah\system\CodeIgniter.php(910): App\Controllers\UsersController->create()
+#4 C:\xampp\htdocs\dawah\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#5 C:\xampp\htdocs\dawah\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dawah\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
